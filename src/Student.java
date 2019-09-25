@@ -19,4 +19,24 @@ public class Student {
     public void updateFeePaid(int fees) {
         feePaid += fees;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getFeePaid() {
+        return feePaid;
+    }
+
+    public int getFeeTotal() {
+        return feeTotal;
+    }
 }
