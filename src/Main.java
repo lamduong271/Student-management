@@ -21,8 +21,11 @@ public class Main {
         studentList.add(Niko);
 
         School Haaga = new School(teacherList,studentList);
-        Lam.payFees(500);
-
-        System.out.println(Lam.getRemainingFees());
+        Lam.payFees(4000);
+        Niko.payFees(1000);
+        System.out.println(Haaga.getTotalMoneyEarned());
+        Juha.receiveSalary(Juha.getSalary());
+        System.out.println(Juha.getSalary());
+        System.out.println("haaga has spent to " + Juha.getName() + " and now has " + Haaga.getTotalMoneyEarned());
     }
 }
